@@ -1,5 +1,5 @@
 {
-    "name": "root/playz",
+    "name": "contrive/playz-infusionsoft-integration",
     "authors": [
         {
             "name": "Rohan Jalil",
@@ -11,8 +11,7 @@
     },
     "autoload": {
         "psr-4":{
-            "Agencymates\\Playz\\": "src/",
-            "Agencymates\\Playz\\seeds\\": "seeds/"
+            "Agencymates\\Playz\\": "src/"
         }
     }
 }
