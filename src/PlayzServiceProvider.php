@@ -15,7 +15,7 @@ class PlayzServiceProvider extends ServiceProvider
     {
         //
         $this->publishes([__DIR__.'/config' => config_path()]);
-        $this->loadMigrationsFrom(__DIR__.'/migrations/');
+        // $this->loadMigrationsFrom(__DIR__.'/migrations/');
     }
 
     /**
