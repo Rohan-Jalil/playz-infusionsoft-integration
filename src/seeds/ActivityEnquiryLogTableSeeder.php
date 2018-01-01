@@ -1,0 +1,258 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class ActivityEnquiryLogTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+        
+
+        \DB::table('activity_enquiry_log')->delete();
+        
+        \DB::table('activity_enquiry_log')->insert(array (
+            0 => 
+            array (
+                'id' => 9,
+                'activity_id' => 11,
+                'user_id' => 8,
+                'subject' => 'Prep For Prep by Prep For Prep',
+                'first_name' => 'Dorinnia',
+                'last_name' => 'Burns',
+                'email' => 'dorinnia@bigpond.com',
+                'ipaddress' => '101.181.153.137',
+                'message' => 'ffbnufwbnuwfbe',
+                'telephone' => '039998875',
+                'subscribe' => 1,
+                'postcode' => 3931,
+                'created_at' => '2017-05-01 11:34:25',
+                'updated_at' => '2017-05-01 11:34:25',
+                'title' => 'Mrs',
+            ),
+            1 => 
+            array (
+                'id' => 10,
+                'activity_id' => 8,
+                'user_id' => 9,
+                'subject' => 'Tennis lessons by Rachel\'s Kids Acitivities',
+                'first_name' => 'Rachel',
+                'last_name' => 'Morley',
+                'email' => 'r.morley71@outlook.com',
+                'ipaddress' => '61.68.252.2',
+                'message' => 'This is a question',
+                'telephone' => '',
+                'subscribe' => 1,
+                'postcode' => 3145,
+                'created_at' => '2017-05-06 14:43:00',
+                'updated_at' => '2017-05-06 14:43:00',
+                'title' => 'Ms',
+            ),
+            2 => 
+            array (
+                'id' => 11,
+                'activity_id' => 16,
+                'user_id' => 9,
+                'subject' => 'Craft Activities by Rachel\'s Kids Acitivities',
+                'first_name' => 'Rachel',
+                'last_name' => 'Morley',
+                'email' => 'r.morley71@outlook.com',
+                'ipaddress' => '61.68.252.2',
+                'message' => 'This is a question',
+                'telephone' => '',
+                'subscribe' => 1,
+                'postcode' => 3145,
+                'created_at' => '2017-05-06 14:43:26',
+                'updated_at' => '2017-05-06 14:43:26',
+                'title' => 'Ms',
+            ),
+            3 => 
+            array (
+                'id' => 12,
+                'activity_id' => 52,
+                'user_id' => 36,
+                'subject' => 'Enquiry: Midweek Piano Concerts | Rachel\'s Music Hall | single session | 18-09-2017 - Rachel\'s Music Classes - 07:00 pm Mon 18 Sep 2017',
+                'first_name' => 'Domi',
+                'last_name' => 'Sharp',
+                'email' => 'domibarmi2017@gmail.com',
+                'ipaddress' => '124.19.9.210',
+                'message' => 'Are there still spaces',
+                'telephone' => '0407968221',
+                'subscribe' => 1,
+                'postcode' => 3145,
+                'created_at' => '2017-09-15 13:14:57',
+                'updated_at' => '2017-09-15 13:14:57',
+                'title' => 'Mr',
+            ),
+            4 => 
+            array (
+                'id' => 13,
+                'activity_id' => 52,
+                'user_id' => 36,
+                'subject' => 'Enquiry: Midweek Piano Concerts | Rachel\'s Music Hall | single session | 25-09-2017 - Rachel\'s Music Classes - 07:00 pm Mon 25 Sep 2017',
+                'first_name' => 'Domi',
+                'last_name' => 'Sharp',
+                'email' => 'domibarmi2017@gmail.com',
+                'ipaddress' => '124.19.9.210',
+                'message' => 'are there still spots',
+                'telephone' => '0407968221',
+                'subscribe' => 1,
+                'postcode' => 3145,
+                'created_at' => '2017-09-15 13:15:47',
+                'updated_at' => '2017-09-15 13:15:47',
+                'title' => 'Mr',
+            ),
+            5 => 
+            array (
+                'id' => 14,
+                'activity_id' => 52,
+                'user_id' => 36,
+                'subject' => 'Enquiry: Midweek Piano Concerts | Rachel\'s Music Hall | single session | 16-10-2017 - Rachel\'s Music Classes - 07:00 pm Mon 16 Oct 2017',
+                'first_name' => 'Domi',
+                'last_name' => 'Sharp',
+                'email' => 'domibarmi2017@gmail.com',
+                'ipaddress' => '124.19.9.210',
+                'message' => 'Re there still spots available',
+                'telephone' => '0407968221',
+                'subscribe' => 1,
+                'postcode' => 3145,
+                'created_at' => '2017-09-15 13:16:31',
+                'updated_at' => '2017-09-15 13:16:31',
+                'title' => 'Mr',
+            ),
+            6 => 
+            array (
+                'id' => 15,
+                'activity_id' => 52,
+                'user_id' => 33,
+                'subject' => 'Enquiry: Midweek Piano Concerts | Rachel\'s Music Hall | single session | 30-10-2017 - Rachel\'s Music Classes - 07:00 pm Mon 30 Oct 2017',
+                'first_name' => 'Rachel +3',
+                'last_name' => 'Morley',
+                'email' => 'rachel+3@playz.com.au',
+                'ipaddress' => '115.146.75.10',
+                'message' => 'test',
+                'telephone' => '',
+                'subscribe' => 1,
+                'postcode' => 3145,
+                'created_at' => '2017-09-15 15:47:59',
+                'updated_at' => '2017-09-15 15:47:59',
+                'title' => '',
+            ),
+            7 => 
+            array (
+                'id' => 16,
+                'activity_id' => 52,
+                'user_id' => 33,
+                'subject' => 'Enquiry: Midweek Piano Concerts | Rachel\'s Music Hall | single session | 02-10-2017 - Rachel\'s Music Classes - 07:00 pm Mon 2 Oct 2017',
+                'first_name' => 'Rachel +3',
+                'last_name' => 'Morley',
+                'email' => 'rachel+3@playz.com.au',
+                'ipaddress' => '115.146.75.10',
+                'message' => 'test',
+                'telephone' => '',
+                'subscribe' => 1,
+                'postcode' => 3145,
+                'created_at' => '2017-09-15 15:51:14',
+                'updated_at' => '2017-09-15 15:51:14',
+                'title' => '',
+            ),
+            8 => 
+            array (
+                'id' => 17,
+                'activity_id' => 52,
+                'user_id' => 33,
+                'subject' => 'Enquiry: Midweek Piano Concerts | Rachel\'s Music Hall | single session | 09-10-2017 - Rachel\'s Music Classes - 07:00 pm Mon 9 Oct 2017',
+                'first_name' => 'Rachel +3',
+                'last_name' => 'Morley',
+                'email' => 'rachel+3@playz.com.au',
+                'ipaddress' => '115.146.75.10',
+                'message' => 'test',
+                'telephone' => '',
+                'subscribe' => 1,
+                'postcode' => 3145,
+                'created_at' => '2017-09-15 15:52:27',
+                'updated_at' => '2017-09-15 15:52:27',
+                'title' => '',
+            ),
+            9 => 
+            array (
+                'id' => 18,
+                'activity_id' => 52,
+                'user_id' => 33,
+                'subject' => 'Enquiry: Midweek Piano Concerts | Rachel\'s Music Hall | single session | 18-09-2017 - Rachel\'s Music Classes - 07:00 pm Mon 18 Sep 2017',
+                'first_name' => 'Rachel +3',
+                'last_name' => 'Morley',
+                'email' => 'rachel+3@playz.com.au',
+                'ipaddress' => '115.146.75.10',
+                'message' => 'test',
+                'telephone' => '',
+                'subscribe' => 1,
+                'postcode' => 3145,
+                'created_at' => '2017-09-15 15:54:55',
+                'updated_at' => '2017-09-15 15:54:55',
+                'title' => '',
+            ),
+            10 => 
+            array (
+                'id' => 19,
+                'activity_id' => 53,
+                'user_id' => 0,
+                'subject' => 'Enquiry: Baking cakes | Cooking Company Headquarters | Term 4 - Cooking Company - 05:00 pm Mon 9 Oct 2017',
+                'first_name' => 'Rachel',
+                'last_name' => 'Morley',
+                'email' => 'r.morley71@outlook.com',
+                'ipaddress' => '144.132.70.191',
+                'message' => 'would this suit a boy',
+                'telephone' => '0407968221',
+                'subscribe' => 1,
+                'postcode' => 3145,
+                'created_at' => '2017-09-20 10:30:25',
+                'updated_at' => '2017-09-20 10:30:25',
+                'title' => 'Ms',
+            ),
+            11 => 
+            array (
+                'id' => 20,
+                'activity_id' => 77,
+                'user_id' => 33,
+                'subject' => 'Playz Enquiry: Music - parter only add',
+                'first_name' => 'Rachel +3',
+                'last_name' => 'Morley',
+                'email' => 'rachel+3@playz.com.au',
+                'ipaddress' => '144.132.70.191',
+                'message' => 'test message for person',
+                'telephone' => '123123132',
+                'subscribe' => 1,
+                'postcode' => 3145,
+                'created_at' => '2017-10-09 12:44:29',
+                'updated_at' => '2017-10-09 12:44:29',
+                'title' => '',
+            ),
+            12 => 
+            array (
+                'id' => 21,
+                'activity_id' => 77,
+                'user_id' => 0,
+                'subject' => 'Playz Enquiry: Music - parter only add',
+                'first_name' => 'Rachel',
+                'last_name' => 'Morley',
+                'email' => 'r.morley71@outlook.com',
+                'ipaddress' => '144.132.70.191',
+                'message' => 'Another test enquiry',
+                'telephone' => '13412412421414',
+                'subscribe' => 1,
+                'postcode' => 3145,
+                'created_at' => '2017-10-09 12:46:44',
+                'updated_at' => '2017-10-09 12:46:44',
+                'title' => 'Ms',
+            ),
+        ));
+        
+        
+    }
+}
