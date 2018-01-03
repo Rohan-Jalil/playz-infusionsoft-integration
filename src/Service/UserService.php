@@ -118,7 +118,7 @@ class UserService
     
     public function user_register($user_id){
 
-        $infs = resolve(InfusionsoftService::class);
+        $infs = \App::make(InfusionsoftService::class);
         $this->infs = $infs;
         
         #fetch the user details from database users table 
